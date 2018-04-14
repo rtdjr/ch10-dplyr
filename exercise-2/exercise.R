@@ -8,18 +8,18 @@
 library(fueleconomy)
 
 # Install and load the "dplyr" library
-
-
+install.packages("dplyr")
+library
 # Select the different manufacturers (makes) of the cars in this data set. 
 # Save this vector in a variable
-
+makes <- makes
 
 # Use the `distinct()` function to determine how many different car manufacturers
 # are represented by the data set
-
+distinct(manufacturer)
 
 # Filter the data set for vehicles manufactured in 1997
-
+filter("makes")
 
 # Arrange the 1997 cars by highway (`hwy`) gas milage
 
